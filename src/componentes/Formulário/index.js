@@ -28,7 +28,7 @@ const aoSalvar = (evento) => {
         // eslint-disable-next-line react/jsx-no-undef
         <section className="formulario">
             <form onSubmit={aoSalvar}>
-                <h2>Preencha os dados para criar os cards dos jogadores</h2>
+                <h2>Preencha os dados para criar os cards dos colaboradores</h2>
                 <CampoTexto obrigatorio={true}
                  label="Nome"placeholder="Digite o seu nome"
                  valor={nome}
